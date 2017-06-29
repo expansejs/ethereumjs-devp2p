@@ -1,6 +1,6 @@
-# ethereumjs-devp2p
+# expansejs-devp2p
 
-[![NPM Package](https://img.shields.io/npm/v/ethereumjs-devp2p.svg?style=flat-square)](https://www.npmjs.org/package/ethereumjs-devp2p)
+[![NPM Package](https://img.shields.io/npm/v/expansejs-devp2p.svg?style=flat-square)](https://www.npmjs.org/package/expansejs-devp2p)
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
@@ -9,7 +9,9 @@ An node.js implementation of
 - devp2p's Distrubuted Peer Table
 - RLPx transport protocol
 - Ethereum wire protocol
+- Tailored for Expanse
 
+Forked from [ethereumjs/ethereumjs-devp2p](https://github.com/ethereumjs/node-devp2p).
 Based on [ethereumjs/node-devp2p](https://github.com/ethereumjs/node-devp2p).
 
 # Example

@@ -1,6 +1,6 @@
 const devp2p = require('../es')
-const EthereumTx = require('ethereumjs-tx')
-const EthereumBlock = require('ethereumjs-block')
+const EthereumTx = require('expansejs-tx')
+const EthereumBlock = require('expansejs-block')
 const LRUCache = require('lru-cache')
 const ms = require('ms')
 const chalk = require('chalk')
@@ -11,7 +11,7 @@ const rlp = require('rlp-encoding')
 const PRIVATE_KEY = randomBytes(32)
 const DAO_FORK_SUPPORT = true
 
-const BOOTNODES = require('ethereum-common').bootstrapNodes.map((node) => {
+const BOOTNODES = require('expanse-common').bootstrapNodes.map((node) => {
   return {
     address: node.ip,
     udpPort: node.port,
