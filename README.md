@@ -1,7 +1,7 @@
 # expansejs-devp2p
-
 [![NPM Package](https://img.shields.io/npm/v/expansejs-devp2p.svg?style=flat-square)](https://www.npmjs.org/package/expansejs-devp2p)
-
+[![Build Status](https://img.shields.io/travis/expansejs/expansejs-devp2p.svg?branch=master&style=flat-square)](https://travis-ci.org/expansejs/expansejs-devp2p)
+[![Coverage Status](https://img.shields.io/coveralls/expansejs/expansejs-devp2p.svg?style=flat-square)](https://coveralls.io/r/expansejs/expansejs-devp2p)
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 An node.js implementation of
